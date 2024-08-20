@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(234, 228, 228);
+}
+
+.umumi {
+    background-color: white;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.basliq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.nomre {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+
+h1 {
+    margin: 70px;
+    text-align: center;
+    font-size: 80px;
+    word-spacing: 30px;
+}
+
+span {
+    color: green;
+}
+
+
+
+
+
+.kabab {
+    background: url(./wekil/azerbaijani-lyulya-kebab-with-potatoes-vegetables\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 90%;
+    margin: auto;
+    height: 750px;
+    position: relative;
+
+}
+
+.a {
+    max-width: 80%;
+    top: 300px;
+    margin: auto;
+    position: absolute;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px;
+    background-color: white;
+    height: 50px;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: 70px;
+
+}
+
+.a a:hover {
+    background-color: rgb(12, 102, 72);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.BBKebab {
+    margin: 70px auto;
+    display: block;
+    max-width: 600px;
+
+}
+
+.BBKebab h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.BBKebab hr {
+    color: green;
+}
+
+.BBKebab p {
+    margin-top: 20px;
+    color: gray;
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.donerler {
+    background-color: green;
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 350px;
+
+
+}
+
+
+
+
+
+.salatlar {
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 350px;
+    gap: 30px;
+    max-width: 60%;
+}
+
+
+.sok {
+    background-color: gainsboro;
+}
+
+
+
+.soklar {
+    margin: 70px auto;
+    display: grid;
+    align-items: center;
+    padding-left: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 250px;
+    gap: 80px;
+    max-width: 90%;
+
+}
+
+
+.sok h1 {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.sok p {
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    align-items: center;
+
+}
+
+.delivery {
+    width: 700px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.delivery h1 {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.delivery p {
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    align-items: center;
+
+}
+
+
+
+.uber {
+    padding-top: 40px;
+    max-width: 70%;
+    margin: 70px auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    justify-items: center;
+
+}
+
+
+.eats {
+    font-size: 40px;
+}
+
+.uber h2 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.uber img {
+    width: 100px;
+    height: 80px;
+
+}
+
+.dor {
+    width: 150px;
+    height: 150px;
+    border: 3px solid grey;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.xerite {
+    margin: auto;
+}
+
+
+.son {
+    display: block;
+    gap: 20px;
+    background-color: rgb(50, 47, 47);
+    color: rgb(231, 218, 218);
+}
+
+.alt {
+    max-width: 100%;
+}
+
+
+
+.end {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 230px;
+    padding: 40px;
+}
+
+
+.end h2,
+p {
+    margin-top: 30px;
+    line-height: 30px;
+
+}
